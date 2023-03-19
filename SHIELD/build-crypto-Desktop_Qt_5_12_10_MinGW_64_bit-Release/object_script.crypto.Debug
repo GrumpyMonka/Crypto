@@ -1,0 +1,11 @@
+debug/decryption.o
+debug/encryption.o
+debug/form.o
+debug/formencrypt.o
+debug/main.o
+debug/mainwindow.o
+debug/threadmonster.o
+debug/moc_form.o
+debug/moc_formencrypt.o
+debug/moc_mainwindow.o
+debug/moc_threadmonster.o

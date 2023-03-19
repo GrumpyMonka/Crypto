@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Загрузить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Шифр</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>&lt;&lt; Расшифровать &lt;&lt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QTextEdit" name="textEdit_3">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QTextEdit" name="textEdit">
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;Дверь моего кабинета внезапно распахнулась – и я понял, что игра окончена. Дельце было что надо – денежное, но ему пришел конец. Когда полицейский вошел, я сидел в кресле, изобразив на лице счастливую улыбку. Тяжелая походка, хмурый взгляд, полное отсутствие чувства юмора сразу выдавали в нем служителя закона. Он еще не открыл рот, а я уже знал, что он скажет.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;– Джеймс Боливар ди Гриз, я должен арестовать вас по обвинению…&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;Для пущего эффекта я подождал слова «обвинению». Когда оно было произнесено, я нажал кнопку, приводящую в действие пороховой заряд, установленный на потолке. Поперечная балка треснула, трехтонный сейф рухнул прямо на голову полицейского. Потрясающая картина. Когда пыль осела, из-под сейфа виднелась лишь неестественно вывернутая рука. Она пошевелилась, и указательный палец обвиняюще нацелился на меня. В его голосе, глухо доносившемся из-под сейфа, звучали недовольные нотки:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;– …по обвинению в незаконном въезде, краже, подлоге…&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;Он бубнил, перечисляя длинный список моих преступлений, но все это я уже слышал. Это абсолютно не мешало мне перекладывать деньги из ящиков стола в чемодан. В конце прибавилось еще одно обвинение и, готов поспорить на во-о-от такую пачку тысячных кредиток, в его голосе звучала обида.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;– Вы также обвиняетесь в нападении на полицейского робота. Поступок бессмысленный, так как мой мозг и речевой аппарат бронированы, а в средней части тела…&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;– Слушай, Джордж, все это мне известно. Но на макушке твоей тупой головы установлен маленький передатчик, а мне бы не хотелось, чтобы ты сообщил обо мне своим приятелям. По крайней мере, в данный момент.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:40px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Cambria','Hoefler Text','Utopia','Liberation Serif','Nimbus Roman No9 L Regular','Times','Times New Roman','serif'; font-size:8pt; color:#303030; background-color:#ffffff;&quot;&gt;Пинком ноги я открыл в стене потайную дверь, ведущую в подвал. Когда я обходил груду железа на полу, робот попытался схватить меня за ногу. Но я ожидал этого, и его пальцы сомкнулись в двух дюймах от моей лодыжки. Я не раз встречался с полицейскими роботами и прекрасно знал, что их невозможно уничтожить. Хоть бей их по голове, хоть с ног сбивай, они преследуют тебя, непрерывно читая мораль. Так дело обстояло и на этот раз. Он убеждал меня покончить с преступной жизнью и стать порядочным гражданином. Робот продолжал молоть чушь, и его голос эхом отдавался на лестничной клетке, когда я уже добрался до подвала.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Текст</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>&gt;&gt; Зашифровать &gt;&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Console</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>Загрузить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3" colspan="2">
+     <widget class="QTextEdit" name="textEdit_2"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+release/decryption.o
+release/encryption.o
+release/form.o
+release/formencrypt.o
+release/main.o
+release/mainwindow.o
+release/threadmonster.o
+release/moc_form.o
+release/moc_formencrypt.o
+release/moc_mainwindow.o
+release/moc_threadmonster.o
